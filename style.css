@@ -89,3 +89,37 @@
     color: #fd0909;
     transition: 1s;
 }
+.Rappresent{
+    width: 1600px;
+}
+.row{
+    margin: top 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.rapp-col{
+    flex-basis: 50%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    text-align: left;
+    margin-top: 5%;
+    margin-left: 150px; 
+    margin-right: 150px;
+}
+h3{
+    font-size: 24px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+p{
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+.rapp-col img{
+    width: 100%;
+}
