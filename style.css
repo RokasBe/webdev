@@ -215,3 +215,32 @@ p{
     cursor: pointer;
     transition: 1s;
 }
+.download{
+    width: 1600px;
+    margin-top: 150px;
+}
+.text-box2{
+    width: 100%;
+    color:  rgb(0, 0, 0);
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.app{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(8, 8, 8);
+    border: 1px solid rgb(8, 8, 8);
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.app:hover{
+    border: 1px solid #fd0909;
+    background: #fd0909;
+    transition: 1s;
+}
