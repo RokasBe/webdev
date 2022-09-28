@@ -180,3 +180,38 @@ p{
     width: 100%;
     align-items: center;
 }
+.signUp{
+    min-height: 400px;
+    background-image:  url("assets/signU.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.text-box1{
+    width: 100%;
+    color:  rgb(0, 0, 0);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.email{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(8, 8, 8);
+    border: 1px solid rgb(8, 8, 8);
+    background-color: rgb(245, 209, 7);
+    position: relative;
+    cursor: pointer;
+}
+.email:hover{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(8, 8, 8);
+    border: 1px solid rgb(8, 8, 8);
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    cursor: pointer;
+    transition: 1s;
+}
