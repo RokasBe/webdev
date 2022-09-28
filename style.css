@@ -244,3 +244,52 @@ p{
     background: #fd0909;
     transition: 1s;
 }
+.footer{
+    min-height: 10px;
+    width: 1600px;
+    background-color: #000000;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.nav-links1{
+    flex: 1;
+    text-align: left;
+}
+.nav-links1 ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px 14px;  
+  position:relative;
+}
+.nav-links1 ul li a{
+    color:#fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+.nav-links1 ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 2s;
+}
+.nav-links1 ul li:hover::after{
+    width: 100%;
+}
+.logo{
+    text-align: center;
+    
+}
+.autorius {
+    width: 100%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: right;
+    color: #fff;
+    font-size: 10px;
+}
